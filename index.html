@@ -397,15 +397,15 @@
 <p>linux系统中,./xxx.py 代表加权限执行py</p>
 <h1 id="中文在各版本中的使用"><a href="#中文在各版本中的使用" class="headerlink" title="中文在各版本中的使用"></a>中文在各版本中的使用</h1><h3 id="python3"><a href="#python3" class="headerlink" title="python3"></a>python3</h3><p>无需加<code>utf-8</code>,可以识别中文</p>
 <h3 id="python2"><a href="#python2" class="headerlink" title="python2"></a>python2</h3><p>默认是<code>ASCII</code>编码，不能识别中文，需要在头部加: <code># -*- coding:utf8 -*-</code> </p>
-<h1 id="编码区别"><a href="#编码区别" class="headerlink" title="编码区别"></a>编码区别</h1><h3 id="ASCII"><a href="#ASCII" class="headerlink" title="ASCII"></a>ASCII</h3><p>用8个二进制数来表示常用字符和英文字母及数字等，总共有256种可能,不支持中文</p>
-<h3 id="unicode"><a href="#unicode" class="headerlink" title="unicode"></a>unicode</h3><p>用至少16位的二进制数来表示各国语言,缺点是至少16位,有浪费内存的现象</p>
-<h3 id="utf8"><a href="#utf8" class="headerlink" title="utf8"></a>utf8</h3><p>万国码,对unicode的情况作了优化,使得二进制数的长度可以变化,不会出现浪费内存情况</p>
-<h1 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h1><h3 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h3><pre><code>inp = input(&apos;输出的语句&apos;)
+<h1 id="编码区别"><a href="#编码区别" class="headerlink" title="编码区别"></a>编码区别</h1><h2 id="ASCII"><a href="#ASCII" class="headerlink" title="ASCII"></a>ASCII</h2><p>用8个二进制数来表示常用字符和英文字母及数字等，总共有256种可能,不支持中文</p>
+<h2 id="unicode"><a href="#unicode" class="headerlink" title="unicode"></a>unicode</h2><p>用至少16位的二进制数来表示各国语言,缺点是至少16位,有浪费内存的现象</p>
+<h2 id="utf8"><a href="#utf8" class="headerlink" title="utf8"></a>utf8</h2><p>万国码,对unicode的情况作了优化,使得二进制数的长度可以变化,不会出现浪费内存情况</p>
+<h1 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h1><h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><pre><code>inp = input(&apos;输出的语句&apos;)
 
 eg:inp = input(&apos;请输入用户名:&apos;)
 </code></pre><p>终端显示: 请输入用户名:</p>
 <p>在终端显示的内容后面需要手动输入内容,所有输入的内容(字符串)将会在Enter之后赋值给inp</p>
-<h3 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h3><pre><code>print(&apos;输出的语句&apos;)
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><pre><code>print(&apos;输出的语句&apos;)
 </code></pre><h1 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h1><p>python if else 必须严格遵守缩进规则（一般缩进一个tab）</p>
 <pre><code>if 条件:
 
@@ -415,25 +415,25 @@ else:
 
     执行语句2
 </code></pre><p>如果符合条件后不想执行操作,需要pass关键字,否则报错</p>
-<h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h3 id="引号"><a href="#引号" class="headerlink" title="引号"></a>引号</h3><pre><code>name1 = &apos;zhangsan&apos;
+<h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h2 id="引号"><a href="#引号" class="headerlink" title="引号"></a>引号</h2><pre><code>name1 = &apos;zhangsan&apos;
 
 name2 = &quot;lisi&quot;
 
 name3 = &apos;&apos;&apos;wangwu&apos;&apos;&apos;
 
 name4 = &quot;&quot;&quot;zhaoliu&quot;&quot;&quot;
-</code></pre><h3 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h3><pre><code>n1 = &quot;alex&quot;
+</code></pre><h2 id="乘法"><a href="#乘法" class="headerlink" title="乘法"></a>乘法</h2><pre><code>n1 = &quot;alex&quot;
 
 n2 = n1 * 10
 
 结果:&quot;alexalexalexalexalexalexalexalexalexalex&quot;
-</code></pre><h1 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h1><h3 id="次方"><a href="#次方" class="headerlink" title="次方"></a>次方</h3><pre><code>a = b ** c
+</code></pre><h1 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h1><h2 id="次方"><a href="#次方" class="headerlink" title="次方"></a>次方</h2><pre><code>a = b ** c
 
 结果: a等于b的c次方
-</code></pre><h3 id="商的整数部分"><a href="#商的整数部分" class="headerlink" title="商的整数部分"></a>商的整数部分</h3><pre><code>a = b // c
+</code></pre><h2 id="商的整数部分"><a href="#商的整数部分" class="headerlink" title="商的整数部分"></a>商的整数部分</h2><pre><code>a = b // c
 
 结果：a等于b除以c商的整数部分
-</code></pre><h3 id="余数"><a href="#余数" class="headerlink" title="余数"></a>余数</h3><pre><code>a = b % c
+</code></pre><h2 id="余数"><a href="#余数" class="headerlink" title="余数"></a>余数</h2><pre><code>a = b % c
 
 结果：a等于b除以c的余数
 </code></pre>
