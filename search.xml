@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python之初识python及一些特殊的地方]]></title>
+    <url>%2F2018%2F10%2F19%2FPython1%2F</url>
+    <content type="text"><![CDATA[##HelloWorld!print(&#39;hello world!&#39;) ##python文件执行python通过.py执行的时候,需要在文件头部制定解释器 如#!/usr/bin/env python linux系统中,./xxx.py 代表加权限执行py ##中文在各版本中的使用 ###python3无需加utf-8,可以识别中文 ###python2默认是ASCII编码，不能识别中文，需要在头部加: # -*- coding:utf8 -*- ##编码区别 ###ASCII用8个二进制数来表示常用字符和英文字母及数字等，总共有256种可能,不支持中文 ###unicode用至少16位的二进制数来表示各国语言,缺点是至少16位,有浪费内存的现象 ###utf8万国码,对unicode的情况作了优化,使得二进制数的长度可以变化,不会出现浪费内存情况 ##输入输出 ###输入 inp = input(&apos;输出的语句&apos;) eg:inp = input(&apos;请输入用户名:&apos;) 终端显示: 请输入用户名: 在终端显示的内容后面需要手动输入内容,所有输入的内容(字符串)将会在Enter之后赋值给inp ###输出 print(&apos;输出的语句&apos;) ##条件语句 python if else 必须严格遵守缩进规则（一般缩进一个tab） if 条件: 执行语句1 else: 执行语句2 如果符合条件后不想执行操作,需要pass关键字,否则报错 ##字符串 ###引号 name1 = &apos;zhangsan&apos; name2 = &quot;lisi&quot; name3 = &apos;&apos;&apos;wangwu&apos;&apos;&apos; name4 = &quot;&quot;&quot;zhaoliu&quot;&quot;&quot; ###乘法 n1 = &quot;alex&quot; n2 = n1 * 10 结果:&quot;alexalexalexalexalexalexalexalexalexalex&quot; ##数字 ###次方 a = b ** c 结果: a等于b的c次方 ###商的整数部分 a = b // c 结果：a等于b除以c商的整数部分 ###余数 a = b % c 结果：a等于b除以c的余数]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我开始写博客啦]]></title>
     <url>%2F2018%2F10%2F17%2FMyFirstArticle%2F</url>
     <content type="text"><![CDATA[努力地把自己当做普通人,你会发现不一样的世界 某某人V2EX 为什么写博客&#160; &#160; &#160; &#160;自己进入编程的世界也很长时间了,却不曾写过点什么,致使自己所见成为过眼云烟。所以从今天开始,我决定写博客来记录自己的点点滴滴,不仅可以将一些新学的东西记录下来,还可以巩固以往的知识。我觉得写博客是个很好的习惯,尽管有很多人坚持不下来,但是还是要试试,经历一下,人生才更完整! 从事以及学习什么&#160; &#160; &#160; &#160;我目前从事的是大数据工作,是做一些离线数据的处理,平台hadoop+sparkCore框架。 &#160; &#160; &#160; &#160;闲暇时间除了游戏(这个除了连败,其他的因素都不会让我停止),还去学习一些别的东西,前段时间学习了javaWeb：spring + springMVC + mybatis 框架的基础用法,最近又在学习python,丰富一下自己的知识储备。 &#160; &#160; &#160; &#160;个人认为,不管你学习什么,只要你在学习,那就是在进步！ 说(chui)说(niu)自己了解的东西编程(由深及浅): Java Scala mysql Spark hadoop Strom hbase kafka redis hive …… 兴趣爱好: LOL 篮球(在上大学后放下了这一兴趣,导致现在打几颗就气喘吁吁) 唱歌(五音不全) …… 缺点: 懒(动力不足) 常立志 一心多用 杞人忧天 不善沟通 …… 优点: &#160; &#160; &#160; &#160;知道自己几斤几两 ding~ 只要不颓,就有希望！]]></content>

@@ -297,6 +297,201 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/19/Python1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ViKing">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/blogImage.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ViKingBlog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/19/Python1/" itemprop="url">Python之初识python及一些特殊的地方</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-19T17:13:44+08:00">
+                2018-10-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>##HelloWorld!<br><code>print(&#39;hello world!&#39;)</code></p>
+<hr>
+<p>##python文件执行<br>python通过.py执行的时候,需要在文件头部制定解释器  如#!/usr/bin/env python</p>
+<p>linux系统中,./xxx.py 代表加权限执行py</p>
+<p>##中文在各版本中的使用</p>
+<p>###python3<br>无需加<code>utf-8</code>,可以识别中文</p>
+<p>###python2<br>默认是<code>ASCII</code>编码，不能识别中文，需要在头部加: <code># -*- coding:utf8 -*-</code> </p>
+<p>##编码区别</p>
+<p>###ASCII<br>用8个二进制数来表示常用字符和英文字母及数字等，总共有256种可能,不支持中文</p>
+<p>###unicode<br>用至少16位的二进制数来表示各国语言,缺点是至少16位,有浪费内存的现象</p>
+<p>###utf8<br>万国码,对unicode的情况作了优化,使得二进制数的长度可以变化,不会出现浪费内存情况</p>
+<p>##输入输出</p>
+<p>###输入</p>
+<pre><code>inp = input(&apos;输出的语句&apos;)
+
+eg:inp = input(&apos;请输入用户名:&apos;)
+</code></pre><p>终端显示: 请输入用户名:</p>
+<p>在终端显示的内容后面需要手动输入内容,所有输入的内容(字符串)将会在Enter之后赋值给inp</p>
+<p>###输出</p>
+<pre><code>print(&apos;输出的语句&apos;)
+</code></pre><p>##条件语句</p>
+<p>python if else 必须严格遵守缩进规则（一般缩进一个tab）</p>
+<pre><code>if 条件:
+
+    执行语句1
+
+else:
+
+    执行语句2
+</code></pre><p>如果符合条件后不想执行操作,需要pass关键字,否则报错</p>
+<p>##字符串</p>
+<p>###引号</p>
+<pre><code>name1 = &apos;zhangsan&apos;
+
+name2 = &quot;lisi&quot;
+
+name3 = &apos;&apos;&apos;wangwu&apos;&apos;&apos;
+
+name4 = &quot;&quot;&quot;zhaoliu&quot;&quot;&quot;
+</code></pre><p>###乘法</p>
+<pre><code>n1 = &quot;alex&quot;
+
+n2 = n1 * 10
+
+结果:&quot;alexalexalexalexalexalexalexalexalexalex&quot;
+</code></pre><p>##数字</p>
+<p>###次方<br>    a = b ** c</p>
+<pre><code>结果: a等于b的c次方
+</code></pre><p>###商的整数部分</p>
+<pre><code>a = b // c
+
+结果：a等于b除以c商的整数部分
+</code></pre><p>###余数<br>    a = b % c</p>
+<pre><code>结果：a等于b除以c的余数
+</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/17/MyFirstArticle/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -514,7 +709,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -525,7 +720,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -536,7 +731,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
