@@ -1863,7 +1863,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8bb90a;
+  background: #f561fb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3081,8 +3081,8 @@ pre .javascript .function {
   }
 }
 * {
-  cursor: url("https://github.com/ViKingGeeker/ViKingGeeker.github.io/blob/master/images/mouse.ico"), auto !important;
+  cursor: url("https://hexo-img-1253457335.cos.ap-beijing.myqcloud.com/mypointer.ico"), auto !important;
 }
 :active {
-  cursor: url("https://github.com/ViKingGeeker/ViKingGeeker.github.io/blob/master/images/mouse.ico"), auto !important;
+  cursor: url("https://hexo-img-1253457335.cos.ap-beijing.myqcloud.com/mypointer.ico"), auto !important;
 }
